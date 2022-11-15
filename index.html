@@ -18,33 +18,54 @@
 <body>
   <header>
     <nav class="navbar navbar-dark navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand logo" href="index.html">intellect</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Meu Progresso
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Meus cursos</a></li>
-                <li><a class="dropdown-item" href="#">Certificados</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Procurar</button>
-          </form>
+        <div class="container">
+            <a class="navbar-brand logo" href="../index.html">intellect</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-0 ps-lg-5">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Meu Progresso
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Meus cursos</a></li>
+                            <li><a class="dropdown-item" href="#">Certificados</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex mx-lg-5" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button type="submit" class="search-button btn btn-outline-success">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                    </button>
+                </form>
+                <div class="col-2 dropdown text-end my-3 my-lg-0">
+                    <a href="#" class=" link-light text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="/user.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+                        <span class="user-name ps-3">fulano</span>
+                    </a>
+                    <ul class="dropdown-menu text-small">
+                        <li><a class="dropdown-item" href="#">Perfil</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sair</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </nav>
-  </header>
+</header>
   <main>
     <section class="presentation-class-courses container mt-4">
       <h2 class="title-presentation">Um novo modo de aprender</h2>
@@ -69,7 +90,7 @@
             <h5 class="card-title">Programação</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of
               the card's content.</p>
-            <a href="pagina-cursos/cursos-programacao.html" class="card-link align-self-center">Acessar</a>
+            <a href="pagina-cursos/curso.html" class="card-link align-self-center">Acessar</a>
           </div>
         </div>
       </div>
@@ -135,7 +156,7 @@
       cumpadi, sou preto inteiris, inteiris.A ordem dos tratores não altera o pão duris.
     </p>
     <div class="ratio ratio-16x9">
-      <iframe src="https://www.youtube.com/embed/E_JFBmC0tpM" title="YouTube video" allowfullscreen></iframe>
+      <iframe class="video-about-us" src="https://www.youtube.com/embed/E_JFBmC0tpM" title="YouTube video" allowfullscreen></iframe>
     </div>
 
   </section>

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+  },
+  {
+    "id": 3,
+    "name": "Javascript",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+  },
+  {
+    "id": 4,
+    "name": "Python",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+  },
+  {
+    "id": 5,
+    "name": "PHP",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "João",
+    "description": "Front-end",
+    "avatar": "../experts/avatar_m.png"
+  },
+  {
+    "id": 2,
+    "name": "Maria",
+    "description": "Back-end",
+    "avatar": "../experts/avatar_f.png"
+  },
+  {
+    "id": 3,
+    "name": "Joana",
+    "description": "Front-end",
+    "avatar": "../experts/avatar_f.png"
+  },
+  {
+    "id": 4,
+    "name": "Carlos",
+    "description": "Back-end",
+    "avatar": "../experts/avatar_m.png"
+  }
+]

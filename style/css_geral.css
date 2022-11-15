@@ -46,6 +46,10 @@ body{
     color: var(--color4);
 }
 
+.user-name {
+    color: var(--color4);
+}
+
 .footer-geral {
     background-color: var(--color1);
     color: var(--color4);
