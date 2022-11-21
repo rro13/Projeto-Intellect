@@ -46,8 +46,14 @@ p{
     color: var(--color5);
 }
 
+
+.card, .card-title, .card-text {
+    color: var(--color4);
+}
+
 .card-link {
     text-decoration: none;
+    color: cyan;
 }
 
 /* 
