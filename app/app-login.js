@@ -3,8 +3,6 @@ function saveUserName(event) {
     const name = document.getElementById('name').value;
     localStorage.setItem('name',name);
     window.location.href = "pagina-inicial/pagina-inicial.html";
-    var url_atual = window.location.href;
-    console.log(url_atual)
 }
 
 function getUserName() {
